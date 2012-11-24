@@ -125,7 +125,6 @@ public class Bestbefore {
             if (i % 100 == 0) {
                 if (i % 400 == 0) {
                     return true;
-                } else {
                     return false;
                 }
             } else {
