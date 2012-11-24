@@ -125,14 +125,9 @@ public class Bestbefore {
             if (i % 100 == 0) {
                 if (i % 400 == 0) {
                     return true;
-                    return false;
-                }
-            } else {
-                return true;
-            }
-        } else {
-            return false;
-        }
+                } else return false;
+            } else return true;
+        } else return false;
     }
     
     // Print the illegal input and exit
